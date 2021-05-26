@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Geo_search">
+  <grid id="27dc6" binding="searchPanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1004" height="622"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8fc89" class="javax.swing.JLabel" binding="longitudeLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Script MT Bold" size="18" style="3"/>
+          <foreground color="-14799374"/>
+          <text value="Enter the longitude"/>
+        </properties>
+      </component>
+      <component id="f10a8" class="javax.swing.JTextField" binding="longitude">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="175" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-2213281"/>
+        </properties>
+      </component>
+      <scrollpane id="8dd84" binding="scroller">
+        <constraints>
+          <grid row="2" column="1" row-span="4" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f03df" class="javax.swing.JTable" binding="outputTable">
+            <constraints/>
+            <properties>
+              <background color="-4391425"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="86194" class="javax.swing.JLabel" binding="latitudeLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Script MT Bold" size="18" style="3"/>
+          <foreground color="-14799374"/>
+          <text value="Enter the latitude"/>
+        </properties>
+      </component>
+      <component id="ed212" class="javax.swing.JButton" binding="homeButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Script MT Bold" size="18" style="3"/>
+          <foreground color="-14799374"/>
+          <text value="Home"/>
+        </properties>
+      </component>
+      <component id="e8a88" class="javax.swing.JButton" binding="clearSearchButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Script MT Bold" size="18" style="3"/>
+          <foreground color="-14799374"/>
+          <text value="Clear Search"/>
+        </properties>
+      </component>
+      <component id="fbecc" class="javax.swing.JButton" binding="Search">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Script MT Bold" size="18" style="3"/>
+          <foreground color="-14799374"/>
+          <text value="Search"/>
+        </properties>
+      </component>
+      <component id="fa324" class="javax.swing.JButton" binding="colorDisplayButton">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Script MT Bold" size="18" style="3"/>
+          <foreground color="-14799374"/>
+          <text value="Check status code"/>
+        </properties>
+      </component>
+      <component id="81497" class="javax.swing.JTextField" binding="latitude">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="175" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-2213281"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
